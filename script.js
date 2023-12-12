@@ -9,5 +9,9 @@ for (let i=0; i < n; i++) {
 args=process.argv;
 
 for (let i=2;i<args.length;i++){
-    console.log("hello to",args[i]);
+    // console.log("hello to",args[i]);
 }
+
+const somevalue=require("./math");
+
+console.log(somevalue);
